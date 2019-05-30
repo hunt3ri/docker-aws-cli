@@ -8,5 +8,6 @@ RUN apt-get update && apt-get install -y \
     groff \
     python-pip
 
-# Install awscli
+# Install awscli and elastic beanstalk cli
 RUN pip install awscli
+RUN pip install awsebcli
