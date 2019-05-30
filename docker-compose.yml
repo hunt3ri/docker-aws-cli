@@ -6,6 +6,7 @@ services:
       context: .
       dockerfile: Dockerfile
     image: ih_aws_cli
+    command: /bin/bash
     stdin_open: true
     tty: true
     volumes:
